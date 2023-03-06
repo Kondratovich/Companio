@@ -1,10 +1,47 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 bin/
 obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
-.idea/
 
-dist/
-node_modules/
-.angular/
+# Compiled output
+/companioapp/dist
+/companioapp/tmp
+/companioapp/out-tsc
+/companioapp/bazel-out
+
+# Node
+/companioapp/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+/companioapp/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/companioapp/.angular/cache
+.sass-cache/
+/companioapp/connect.lock
+/companioapp/coverage
+/libpeerconnection.log
+testem.log
+/companioapp/typings
+
+# System files
+.DS_Store
+Thumbs.db
