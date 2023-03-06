@@ -26,15 +26,10 @@ yarn-error.log
 *.sublime-workspace
 
 # Visual Studio Code
-/companioapp/.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+/companioapp/.vscode/
 
 # Miscellaneous
-/companioapp/.angular/cache
+/companioapp/.angular
 .sass-cache/
 /companioapp/connect.lock
 /companioapp/coverage
